@@ -1,0 +1,89 @@
+<h2>Sample Jobs with Suggested Scores</h2>
+<!-- For Desktop -->
+<div fxHide.xs="true">
+    <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="space-between center" *ngFor="let row of jobData"
+        fxLayout.lt-sm="column" fxLayoutAlign.lt-sm="center stretch">
+
+        <mat-card fxLayout="row" fxLayoutAlign="space-between center" *ngIf="row.id==1" fxFlex="100%">
+            <div class="container" fxLayout="row" fxLayoutAlign="space-between center" fxLayout.lt-sm="row"
+                fxLayoutAlign.lt-sm="space-between start" fxLayoutGap.lt-sm="120px">
+                <div class="blocks1">
+                    <h4>{{row.Designation}}</h4>
+                    <mat-card-subtitle>
+                        <p>{{row.Company}}</p>
+                    </mat-card-subtitle>
+                </div>
+                <div class="blocks2">
+                    <button mat-button color="accent">{{row.Required_Score}}</button>
+                </div>
+            </div>
+        </mat-card>
+
+        <mat-card fxLayout="row" fxLayoutAlign="space-between center" *ngIf="row.id==1" fxFlex="100%">
+            <div class="container" fxLayout="row" fxLayoutAlign="space-between center" fxLayout.lt-sm="row"
+                fxLayoutAlign.lt-sm="space-between start" fxLayoutGap.lt-sm="120px">
+                <div class="blocks1">
+                    <h4>{{row.Designation}}</h4>
+                    <mat-card-subtitle>
+                        <p>{{row.Company}}</p>
+                    </mat-card-subtitle>
+                </div>
+                <div class="blocks2">
+                    <button mat-button color="accent">{{row.Required_Score}}</button>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+
+    <div style="padding-top: 6px;" fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="space-between center"
+        *ngFor="let row of jobData" fxLayout.lt-sm="column" fxLayoutAlign.lt-sm="center stretch">
+
+        <mat-card fxLayout="row" fxLayoutAlign="space-between center" *ngIf="row.id==4" fxFlex="100%">
+            <div class="container" fxLayout="row" fxLayoutAlign="space-between center" fxLayout.lt-sm="row"
+                fxLayoutAlign.lt-sm="space-between start" fxLayoutGap.lt-sm="120px">
+                <div class="blocks1">
+                    <h4>{{row.Designation}}</h4>
+                    <mat-card-subtitle>
+                        <p>{{row.Company}}</p>
+                    </mat-card-subtitle>
+                </div>
+                <div class="blocks2">
+                    <button mat-button color="accent">{{row.Required_Score}}</button>
+                </div>
+            </div>
+        </mat-card>
+
+        <mat-card fxLayout="row" fxLayoutAlign="space-between center" *ngIf="row.id==4" fxFlex="100%">
+            <div class="container" fxLayout="row" fxLayoutAlign="space-between center" fxLayout.lt-sm="row"
+                fxLayoutAlign.lt-sm="space-between start" fxLayoutGap.lt-sm="120px">
+                <div class="blocks1">
+                    <h4>{{row.Designation}}</h4>
+                    <mat-card-subtitle>
+                        <p>{{row.Company}}</p>
+                    </mat-card-subtitle>
+                </div>
+                <div class="blocks2">
+                    <button mat-button color="accent">{{row.Required_Score}}</button>
+                </div>
+            </div>
+        </mat-card>
+    </div>
+</div>
+<!-- For Mobile -->
+
+<div class="job_mob" fxLayout="row"  *ngFor="let row of jobData"  fxLayout.lt-xs="row" fxHide.gt-xs="true" >
+    <mat-card fxLayout="row" *ngIf="row.id==4" fxLayoutAlign="" fxFlex="100%">
+        <div class="container" fxLayout="row" fxLayoutAlign="" fxLayout.lt-sm="row"
+            fxLayoutAlign.lt-sm="" fxLayoutGap.lt-sm="120px">
+            <div class="blocks1">
+                <h4>{{row.Designation}}</h4>
+                <mat-card-subtitle>
+                    <p>{{row.Company}}</p>
+                </mat-card-subtitle>
+            </div>
+            <div class="blocks2">
+                <button mat-button color="accent">{{row.Required_Score}}</button>
+            </div>
+        </div>
+    </mat-card>
+</div>

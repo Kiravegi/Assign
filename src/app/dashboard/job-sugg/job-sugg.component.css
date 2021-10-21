@@ -1,0 +1,19 @@
+h2{ 
+    font-weight: 700;
+}
+h4{ 
+    font-weight: 900;
+}
+
+ .blocks1{ 
+        width: 450px;
+    }
+ 
+@media only screen and (max-width: 600px) {
+
+    .blocks1{
+      width: 180px;
+    }
+ 
+}
+

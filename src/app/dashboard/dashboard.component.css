@@ -1,0 +1,117 @@
+
+  .header{  
+      padding-bottom:  20px; ;
+  }
+  .welcome_text h1{ 
+    font-weight: 500;
+    color: black;
+  }
+   .second_row{  
+     padding-top: 2%;
+   }
+
+   .Banner1{  
+     background-color: azure;
+     padding: 2.5%;
+   }
+   
+   .cong-text { 
+     font-weight: 600;
+    color: rgba(3, 108, 255, 0.788);
+   }
+   #cong-lmore{ 
+    color: rgb(45, 121, 226);
+    font-weight: 500;
+  }
+  #clm{ 
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  #clm:hover{ 
+    font-weight: 600;
+    cursor: pointer;
+  }
+   #icon1{
+    font-size: 56px;
+   }
+   .max{  
+     margin: 20px;
+     padding-right: 5%;
+     padding-left: 5%;
+   }
+ 
+   .profile-pic{  
+     margin: 10px;
+   }
+   #profile-icon{  
+    font-size: 50px;
+   }
+
+   .waving_icon{ 
+    width: 1.5%;
+    height: 1.5%;
+    transform: translateX(20%);
+  }
+
+   @media only screen and (max-width: 600px) {
+    .max{  
+      margin: 10px;
+      padding: 5px;
+    }
+    .cong-text { 
+      color: rgb(45, 121, 226);
+    }
+    
+    #cong-lmore{ 
+      color: rgb(45, 121, 226);
+      font-weight: 500;
+    }
+    #clm{ 
+      text-decoration: underline;
+      font-weight: 500;
+    }
+    h1 { 
+      font-size:100%;
+      font-weight: 600;
+     color: rgb(0, 0, 0);
+    }
+
+    .banner_container{  
+     background-color: azure;
+     text-align: center;
+   }
+
+   .welcome_text h1{ 
+     font-size: 130%;
+     color: black;
+   }
+
+   #icon1{
+    font-size: 40px;
+   }
+
+   .Banner1{  
+     padding-top:20px;
+  }
+
+
+  .waving_icon{ 
+    width: 5%;
+    height: 12%;
+    transform: translate(3px, 1px);
+  }
+
+  .profile-pic{ 
+    display: flex;
+    margin-left: -15px;
+    margin-top: -10px;
+  }
+  .welcome_text_xs{ 
+    font-size: 14px;
+  }
+ 
+  .pname{ 
+    font-weight: 600;
+  }
+
+}
